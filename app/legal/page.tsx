@@ -19,7 +19,7 @@ export default function LegalPage() {
                 
                 <section>
                   <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                    <span className="bg-gray-100 text-xs px-2 py-1 rounded-full text-gray-600">01</span>
+                    <span className="bg-primary text-xs px-2 py-1 rounded-full text-white">01</span>
                     저작권 정보
                   </h2>
                   <p className="pl-9">
@@ -32,7 +32,7 @@ export default function LegalPage() {
 
                 <section>
                   <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                    <span className="bg-gray-100 text-xs px-2 py-1 rounded-full text-gray-600">02</span>
+                    <span className="bg-primary text-xs px-2 py-1 rounded-full text-white">02</span>
                     면책 조항 (Disclaimer)
                   </h2>
                   <p className="pl-9">
@@ -45,7 +45,7 @@ export default function LegalPage() {
 
                 <section>
                   <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                    <span className="bg-gray-100 text-xs px-2 py-1 rounded-full text-gray-600">03</span>
+                    <span className="bg-primary text-xs px-2 py-1 rounded-full text-white">03</span>
                     링크된 사이트
                   </h2>
                   <p className="pl-9">
@@ -55,7 +55,7 @@ export default function LegalPage() {
 
                 <section>
                   <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                    <span className="bg-gray-100 text-xs px-2 py-1 rounded-full text-gray-600">04</span>
+                    <span className="bg-primary text-xs px-2 py-1 rounded-full text-white">04</span>
                     상표권
                   </h2>
                   <p className="pl-9">
@@ -65,7 +65,7 @@ export default function LegalPage() {
 
                 <section>
                   <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                    <span className="bg-gray-100 text-xs px-2 py-1 rounded-full text-gray-600">05</span>
+                    <span className="bg-primary text-xs px-2 py-1 rounded-full text-white">05</span>
                     준거법 및 관할
                   </h2>
                   <p className="pl-9">
