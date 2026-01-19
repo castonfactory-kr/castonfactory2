@@ -11,13 +11,13 @@ export function Footer() {
           </div>
           
           <nav className="flex gap-6">
-            <Link href="#" className="hover:text-primary hover:underline underline-offset-4">
+            <Link href="/privacy" className="hover:text-primary hover:underline underline-offset-4">
               개인정보처리방침
             </Link>
-            <Link href="#" className="hover:text-primary hover:underline underline-offset-4">
+            <Link href="/legal" className="hover:text-primary hover:underline underline-offset-4">
               법적고지
             </Link>
-            <Link href="#contact" className="hover:text-primary hover:underline underline-offset-4">
+            <Link href="/contact" className="hover:text-primary hover:underline underline-offset-4">
               Contact Us
             </Link>
           </nav>

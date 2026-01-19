@@ -14,13 +14,13 @@ export function Header() {
         
         {/* Desktop Nav */}
         <nav className="hidden gap-8 md:flex">
-          <Link href="#about" className="text-sm font-medium hover:text-primary hover:underline underline-offset-4">
+          <Link href="/#about" className="text-sm font-medium hover:text-primary hover:underline underline-offset-4">
             About
           </Link>
-          <Link href="#features" className="text-sm font-medium hover:text-primary hover:underline underline-offset-4">
+          <Link href="/#features" className="text-sm font-medium hover:text-primary hover:underline underline-offset-4">
             Service
           </Link>
-          <Link href="#contact" className="text-sm font-medium hover:text-primary hover:underline underline-offset-4">
+          <Link href="/contact" className="text-sm font-medium hover:text-primary hover:underline underline-offset-4">
             Contact
           </Link>
         </nav>
