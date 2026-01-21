@@ -44,10 +44,10 @@ COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 # non-root 유저로 전환
 USER nextjs
 
-# Next.js는 기본적으로 3000 포트 사용
-EXPOSE 3000
+# 포트 3001 사용 (다른 Next.js 프로젝트와 충돌 방지)
+EXPOSE 3001
 
-ENV PORT=3000
+ENV PORT=3001
 ENV HOSTNAME="0.0.0.0"
 
 # 서버 실행
